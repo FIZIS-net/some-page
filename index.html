@@ -13,9 +13,14 @@
     <!------------------>
 
     <!-- Jquery 3.6.0 -->
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!------------------>
-
+    <script type='text/javascript'>
+        $(window).on('load', function () {
+          $('.loading').fadeOut("slow");
+        });
+    </script>
+    
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
@@ -43,18 +48,20 @@
         <img class="img img--normal" src="/placeholder.jpg" alt="" srcset="">
     </div>
     <div class="wrapper-item flex-md-column p-5 position-relative">
-        <div class="w-100">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, tenetur necessitatibus? Beatae fuga error odio minima dolorum placeat molestiae provident vitae, perferendis iusto commodi, ipsa quis praesentium quia enim reiciendis!</p>
+        <div>
+            <p class="text-center text-font-size-20 p-5">Welcome to my Blog!</p>
         </div>
         <div class="w-100">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora doloribus, dolorum eveniet aspernatur cum voluptas! Velit, delectus commodi ad officiis eligendi nostrum placeat, incidunt odit ex animi alias dolorum perspiciatis?</p>
+            <p class="text-font-size-16">Hello everyone and welcome to my personal blog. My name is Vladislav, I'm from the small town of Cheboksary in Russia. In this blog I will write about what I do in my free time and I will also add various features to this site. You can also use the links below to view my pages on other social networks.</p>
+        </div>
+        <div class="w-100">
         </div>
         <div class="d-inline-flex justify-content-center position-absolute bottom-0 w-100">
             <div class="d-flex">
                 <img class="img img--small" src="/telegram-ico.svg" alt="">
             </div>
             <div class="d-flex">
-                <img class="img img--small" src="/telegram-ico.svg" alt="">
+                <img class="img img--small" src="/vk-icon.svg" alt="">
             </div>
             <div class="d-flex">
                 <img class="img img--small" src="/telegram-ico.svg" alt="">
@@ -63,11 +70,11 @@
     </div>
 </div>
 
-<!-- <div class="loading">
+<div class="loading">
     <p class="loading-text">loading</p>
     <p class="loading-dots">...</p>
     <div class="loading-spinner"></div>
-</div> -->
+</div>
 
 <footer class="footer flex-center-parent">
     <div class="footer-item">

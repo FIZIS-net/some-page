@@ -44,22 +44,22 @@ a{
 }
 
 .position-relative{
-    position: relative;
+    position: relative !important;
 }
 .position-absolute{
-    position: absolute;
+    position: absolute !important;
 }
 
 .bottom-0{
-    bottom: 0;
+    bottom: 0 !important;
 }
 
 .d-inline-flex{
-    display: inline-flex;
+    display: inline-flex !important;
 }
 
 .d-flex{
-    display: flex;
+    display: flex !important;
 }
 
 .flex-md-order-none {
@@ -95,7 +95,19 @@ a{
 }
 
 .w-100{
-    width: 100%;
+    width: 100% !important;
+}
+
+.text-font-size-16{
+    font-size: 16px;
+}
+
+.text-font-size-20{
+    font-size: 20px !important;
+}
+
+.text-center{
+    text-align: center !important;
 }
 
 .justify-content-center{
