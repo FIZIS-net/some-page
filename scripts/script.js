@@ -4,4 +4,5 @@ $('a.project')
     })
     .mouseleave(function(event){
         $(event.target.parentElement).children('.project-title').fadeOut(200);
+        console.log('kek lol azaza');
     })
