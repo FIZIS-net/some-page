@@ -302,40 +302,22 @@ a{
 }
 
 .m-0{
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    margin: 0 !important;
 }
 .m-1{
-    margin-top: calc(var(--spacer) * .25) !important;
-    margin-bottom: calc(var(--spacer) * .25) !important;
-    margin-left: calc(var(--spacer) * .25) !important;
-    margin-right: calc(var(--spacer) * .25) !important;
+    margin: calc(var(--spacer) * .25) !important;
 }
 .m-2{
-    margin-top: calc(var(--spacer) * .5) !important;
-    margin-bottom: calc(var(--spacer) * .5) !important;
-    margin-left: calc(var(--spacer) * .5) !important;
-    margin-right: calc(var(--spacer) * .5) !important;
+    margin: calc(var(--spacer) * .5) !important;
 }
 .m-3{
-    margin-top: var(--spacer) !important;
-    margin-bottom: var(--spacer) !important;
-    margin-left: var(--spacer) !important;
-    margin-right: var(--spacer) !important;
+    margin: var(--spacer) !important;
 }
 .m-4{
-    margin-top: calc(var(--spacer) * 1.5) !important;
-    margin-bottom: calc(var(--spacer) * 1.5) !important;
-    margin-left: calc(var(--spacer) * 1.5) !important;
-    margin-right: calc(var(--spacer) * 1.5) !important;
+    margin: calc(var(--spacer) * 1.5) !important;
 }
 .m-5{
-    margin-top: calc(var(--spacer) * 3) !important;
-    margin-bottom: calc(var(--spacer) * 3) !important;
-    margin-left: calc(var(--spacer) * 3) !important;
-    margin-right: calc(var(--spacer) * 3) !important;
+    margin: calc(var(--spacer) * 3) !important;
 }
 /*----------------------*/
 
